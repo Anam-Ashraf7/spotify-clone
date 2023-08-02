@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(13,17,23);
 }
 
 p {
@@ -24,7 +24,7 @@ img {
 }
 
 .sidebar{
-    margin: 15px;
+    margin: 10px;
 }
 
 #plus {
@@ -41,4 +41,36 @@ img {
     padding: 2px;
     width: 30px;
     height: 27px;
+}
+
+.genre {
+    display: block;
+}
+
+#playbar {
+    background-color: rgb(24,24,24);
+    margin: 10px;
+    padding: 25px;
+}
+
+#song {
+
+}
+
+#musicplayer {
+    width: 500px;
+    height: 70px;
+}
+
+#options {
+    width: 300px;
+    height: 40px;
+}
+
+*{
+    font-family: DM san;
+}
+
+#navigation {
+    background-color: rgb(13,17,23);   
 }
