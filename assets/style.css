@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+    display: inline-block;
+    margin: 15px;
+}
+
+/* div{
+    display: inline-block;
+} */
+
+img {
+ width: 20px;
+ height: 20px;
+}
+
+#logo {
+    height: 50px;
+    width: 150px;
+    margin: 5px;
+}
+
+.sidebar{
+    margin: 15px;
+}
+
+#plus {
+    background-color: white;
+    padding: 5px;
+}
+
+#episodes{
+    background-color: darkgreen;
+    padding: 5px;
+}
+
+#likedsong {
+    padding: 2px;
+    width: 30px;
+    height: 27px;
+}
