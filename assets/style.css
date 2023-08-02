@@ -1,3 +1,7 @@
+
+
+
+
 body {
     background-color: rgb(13,17,23);
 }
@@ -19,7 +23,7 @@ img {
 
 #logo {
     height: 50px;
-    width: 150px;
+    width: 170px;
     margin: 5px;
 }
 
@@ -50,7 +54,7 @@ img {
 #playbar {
     background-color: rgb(24,24,24);
     margin: 10px;
-    padding: 25px;
+    padding: 0px;
 }
 
 #song {
@@ -68,9 +72,58 @@ img {
 }
 
 *{
-    font-family: DM san;
+    font-family: 'DM sans';
 }
 
 #navigation {
     background-color: rgb(13,17,23);   
+}
+
+#arrownavigation {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    left: 60px;
+}
+
+#account {
+    position: absolute;
+    right: 80px;
+    top: 35px;
+    font-size: large;
+}
+
+#userphoto{
+    border-radius: 50%;
+}
+
+h1 {
+    position:absolute;
+    left: 240px;
+    color: white;
+    top: 100px;
+}
+
+.likedsongs {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 5%;
+    top: 190px;
+    left: 240px;
+}
+
+#heart {
+    position: absolute;
+    z-index: 100;
+    top: 225px;
+    left: 277px;
+}
+
+h3{
+    color: white;
+    position: absolute;
+    left: 350px;
+    top: 205px;
 }
