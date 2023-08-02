@@ -1,7 +1,7 @@
 # spotify-clone-boilerplate
+![Screenshot 2023-08-02 182603](https://github.com/Anam-Ashraf7/spotify-clone-boilerplate/assets/139621294/289cd26b-219c-4651-996b-a4b645e734cc)
 
 ## Here is the expected output
-![Screenshot 2023-08-02 182550](https://github.com/Anam-Ashraf7/spotify-clone-boilerplate/assets/139621294/13babba3-791d-47c7-944a-2c0fc33b6650)
 
 
 
