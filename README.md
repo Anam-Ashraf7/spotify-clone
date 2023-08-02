@@ -1,6 +1,7 @@
 # spotify-clone-boilerplate
 
 ## Here is the expected output
+![Screenshot 2023-08-02 182550](https://github.com/Anam-Ashraf7/spotify-clone-boilerplate/assets/139621294/13babba3-791d-47c7-944a-2c0fc33b6650)
 
 ![](https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Spotify%20Web%20UI.png?raw=true)
 
