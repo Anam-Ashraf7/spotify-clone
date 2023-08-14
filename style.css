@@ -1,177 +1,280 @@
 
-
-
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}
 
 body {
-    background-color: rgb(13,17,23);
-}
-
-p {
-    color: white;
-    display: inline-block;
-    margin: 15px;
+    background-image: linear-gradient(to top, black, rgb(34,34,34));
+    background-repeat: no-repeat;
 }
 
 
-img {
- width: 20px;
- height: 20px;
+#spotify-logo {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    padding-top: 15px;
 }
 
-#logo {
-    height: 50px;
-    width: 170px;
-    margin: 5px;
-}
-
-.sidebar{
-    margin: 10px;
+.navbar img{
+    width: 25px;
 }
 
 #plus {
     background-color: white;
-    padding: 5px;
 }
 
-#episodes{
-    background-color: darkgreen;
-    padding: 5px;
+#episode {
+    background-color: green;
 }
 
-#likedsong {
-    padding: 2px;
-    width: 30px;
-    height: 27px;
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 80vh;
+    background-color: black;
+    color: white;
 }
 
-.genre {
-    display: block;
+ul {
+    list-style: none;
 }
 
-#playbar {
-    background-color: rgb(24,24,24);
-    margin: 10px;
-    padding: 20px;
+.navbar ul {
+    padding: 0px 5px;
+    padding-top: 25px;
 }
 
-#musicplayer {
-    width: 600px;
-    height: 90px;
+.navbar img {
+    border-radius: 5%;
 }
 
-#rightoptions {
-    width: 300px;
-    height: 30px;
+ul li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
 }
 
-*{
-    font-family: 'DM sans';
+.navbar li {
+    height: 42px;
 }
 
-#navigation {
-    background-color: rgb(13,17,23);   
+.genre li {
+    gap: 0px;
+    height: 35px;
 }
 
-#arrownavigation {
-    width: 100px;
-    height: 40px;
-    position: relative;
-    top: 5px;
-    left: 60px;
+li:hover {
+    background-color: rgb(48, 48, 48);
+    border-radius: 3%;
 }
 
-#account {
-    position: absolute;
-    right: 80px;
-    top: 35px;
-    font-size: large;
+.top-nav {
+    width: 150vh;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-#userphoto{
-    border-radius: 50%;
+
+.top-nav img{
+    margin: 25px 30px;
+}
+
+.top-nav img:nth-child(2) {
+    border-radius: 20px 20px;
+    padding-right: 0px;
+
 }
 
 h1 {
-    position:absolute;
-    left: 240px;
-    color: white;
-    top: 100px;
+    padding-left: 35px;
+    padding-bottom: 15px;
 }
 
-.likedsongs {
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    border-radius: 5%;
-    top: 190px;
-    left: 240px;
+h4 {
+    font-size: 0.8rem;
+    color: grey;
 }
 
-#heart {
-    position: absolute;
-    z-index: 100;
-    top: 225px;
-    left: 277px;
+.playlist ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px;
+    gap: 18px;
+    padding-left: 35px;
 }
 
-h3{
-    color: white;
-    position: absolute;
-    left: 350px;
-    top: 205px;
+.playlist li{
+    width: 292px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 3%;
+    padding: 0px;
 }
 
-#songcover {
-    width: 70px;
-    height: 60px;
+.playlist img {
+    border-radius: 3% 0% 0% 3% ;
 }
 
-#player{
-    position: absolute;
-    left: 465px;
-    bottom: -30px;
+.playlist p {
+    padding-left: 5px;
 }
 
-#options {
-    position: absolute;
-    right: 12px;
-    bottom: 10px;
+.playlist img:first-child{
+    height: 10vh;
 }
 
-#device {
-    position: relative;
-    color: white;
+.shows h2{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+
+.show-items{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+}
+
+.show-items li {
+    flex-direction: column;
+    background-color: rgb(24, 24, 24);
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+.show-items img{
+    height: 60%;
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(24, 24, 24);
+}
+
+.player-item1 img{
+    height: 80px;
+    padding-left: 100px;
+}
+
+.player-item2 img {
+    height: 4vh;
+    padding-right: 20px;
+}
+
+.music-cover{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+}
+
+.music-cover img:first-child {
+    height: 8vh;
+}
+
+.music-cover p {
+    padding: 0px 20px;
+}
+
+.music-cover img:nth-child(3) {
+    height: 20px;
+    align-self: center;
+}
+
+
+.artist p:nth-child(2) {
+    color: gray;
+}
+
+.contents {
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: green;
-    text-align: right;
-    bottom: 10px;
+    height: 3vh;
+    padding-right: 120px
 }
 
-#marshmellow{
-    position: relative;
-    top: 285px;
-    left: -58px;
-    width: 90px;
-    height: 90px;
-    border-radius: 5%;
+footer div {
+    color: black;
+    font-size: 0.9rem;
 }
 
-#electronix {
-    top: 300px;
+footer img {
+    height: 1.5vh;
+    padding-right: 4px;
 }
 
-#plus,#likedsong,#episodes{
-    border-radius: 10%;
+#downarrow {
+    height: 20px;
+    top: 6px;
+    right: 30px;
 }
 
-#neffexsongs {
-    position: absolute;
-    top: 193px;
-    left: 570px;
-    width: 90px;
-    height: 90px;
-    border-radius: 5%;
-}
+@media (max-width: 600px) {
+    .navbar {
+        width: 100%;
+        align-items: center;
+        height: 680px;
+    }
 
-#neffex{
-    left: 680px;
+    h1,h2 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .install {
+        display: none;
+    }
+
+    .top-nav {
+        display: none;
+    }
+
+    .playlist ul{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contents {
+        flex-direction: column;
+    }
+
+    .player{
+        display: inline;
+    }
+    .show-items {
+        grid-auto-flow: row;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .player-item1 img{
+        width: 400px;
+        /* height: 150px; */
+        padding-left: 5px;
+    }
+
+    body {
+        background-color: black;
+    }
 }
