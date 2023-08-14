@@ -1,8 +1,9 @@
 # spotify-clone-boilerplate
+![Screenshot 2023-08-02 182603](https://github.com/Anam-Ashraf7/spotify-clone-boilerplate/assets/139621294/289cd26b-219c-4651-996b-a4b645e734cc)
 
 ## Here is the expected output
 
-![](https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Spotify%20Web%20UI.png?raw=true)
+
 
 Fork this repo and get started with the cloning project.
 
