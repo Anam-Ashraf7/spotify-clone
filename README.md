@@ -1,8 +1,7 @@
-# spotify-clone-boilerplate
-![Screenshot 2023-08-02 182603](https://github.com/Anam-Ashraf7/spotify-clone-boilerplate/assets/139621294/289cd26b-219c-4651-996b-a4b645e734cc)
-
+# spotify-clone
 ## Here is the expected output
 
+![Screenshot 2023-08-15 003740](https://github.com/Anam-Ashraf7/spotify-clone/assets/139621294/14318446-2186-468f-abb9-aab6cb87d4f3)
 
 
 Fork this repo and get started with the cloning project.
